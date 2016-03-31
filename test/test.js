@@ -23,5 +23,12 @@ describe('SoLog', function(){
         it('Write String type info message', function(){
             soLog.info('This is an info message');
         });
+
+        it('Write other type', function(){
+            soLog.info({
+                'code': 1,
+                'message': 'Bad Request'
+            });
+        });
     });
 });

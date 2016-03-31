@@ -1,6 +1,6 @@
 {
   "name": "so-log",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "so i need log",
   "main": "./lib/so-log.js",
   "scripts": {
